@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom right, #613ad6, #0d35ff);
+}
+
+.heading {
+    margin: 20px;
+    color: white;
+    font-weight: 800;
+    border: white solid 5px;
+}
+
+.logo {
+    margin: 20px;
+    color: white;
+
+}
+
+.userinput {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 20px;
+    border: none;
+}
+
+.heading2 {
+    color: white;
+    font-weight: bold;
+}
+
+.hr {
+    border: solid white 1px;
+}
+
+.add-btn {
+    color: white;
+    background-image: linear-gradient(to bottom left, #da05ff, #6600ff);
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    margin: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+}
+
+.todolist-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.todotask {
+    background-color: rgb(222, 233, 255);
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+    height: 60px;
+    width: 90%;
+    font-size: 30px;
+    padding: 10px;
+    border-left: solid #6600ff 15px;
+    border-radius: 20px;
+}
+
+.todoitem {
+    margin-top: 20px;
+}
+
+.checkbox {
+    width: 40px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+
+.delete-icon {
+    margin-left: auto;
+}
+
+.checked-label {
+    text-decoration: line-through;
+}
