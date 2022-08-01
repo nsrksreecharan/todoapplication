@@ -123,7 +123,7 @@ function Savetodo() {
 }
 
 function onAddtodo() {
-    let todoCount = todoList.length;
+    let todoCount = (todoList.length==0)?todoList.length: todoList[todoList.length-1].uniqueNo+1;
 
     let userInput = document.getElementById("userInput");
     let userInputValue = userInput.value;
