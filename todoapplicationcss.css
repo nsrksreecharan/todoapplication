@@ -4,6 +4,7 @@
 
 body {
     background-image: linear-gradient(to bottom right, #613ad6, #0d35ff);
+    background-size:cover;
 }
 
 .heading {
