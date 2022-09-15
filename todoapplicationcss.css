@@ -5,7 +5,8 @@
 body {
     background-image: linear-gradient(to bottom right, #613ad6, #0d35ff);
     background-size:cover;
-    height :100%;
+    background-repeat:no-repeat;
+    height :100vh;
 }
 
 .heading {
